@@ -1,0 +1,44 @@
+.footer {
+  text-align: center;
+  padding: 4rem clamp(1rem, 6vw, 6rem);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.footer-title {
+  font-size: 1.25rem;          
+  font-weight: 300;            
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;            
+}
+
+.footer-subline {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.footer-email {
+  display: block;
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  pointer-events: none;
+  user-select: none;
+}
+
+.footer-link {
+  display: block;
+  font-size: 1rem;
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: 300;
+}
+
+.footer-link:hover {
+  color: #ffb199; /* peach on hover */
+}
