@@ -1,44 +1,46 @@
 .footer {
   text-align: center;
-  padding: 4rem clamp(1rem, 6vw, 6rem);
+  padding: 2rem 2rem 3rem 2rem;  /* ⬆ space above & below the footer */
   font-family: 'Inter', sans-serif;
-  font-weight: 300;
   color: #000;
-  box-sizing: border-box;
-}
-
-.footer-title {
-  font-size: 1.25rem;          
-  font-weight: 300;            
-  margin-bottom: 0.5rem;
-  margin-top: 1rem;            
-}
-
-.footer-subline {
-  font-size: 1rem;
-  margin-bottom: 1rem;
   font-weight: 300;
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 4rem auto 0 auto; /* ⬆ more space from About Me */
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1.2rem; /* ⬆ more gap below this text */
 }
 
 .footer-email {
-  display: block;
-  font-size: 1rem;
-  color: #aaa;
-  margin-bottom: 0.5rem;
-  text-decoration: none;
-  pointer-events: none;
-  user-select: none;
-}
-
-.footer-link {
-  display: block;
   font-size: 1rem;
   color: #aaa;
   text-decoration: none;
-  transition: color 0.3s;
-  font-weight: 300;
+  display: block;
+  margin-bottom: 1rem;
 }
 
-.footer-link:hover {
-  color: #ffb199; /* peach on hover */
+.footer-email:hover {
+  color: #ffb199;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem; /* ⬆ icons move further from the text */
+}
+
+.footer-icon-link img {
+  width: 28px;
+  height: 28px;
+  transition: opacity 0.3s ease;
+  opacity: 0.8;
+}
+
+.footer-icon-link img:hover {
+  opacity: 1;
 }

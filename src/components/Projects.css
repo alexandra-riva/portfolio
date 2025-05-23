@@ -1,11 +1,12 @@
 .projects-section {
+    margin-top: 25rem; 
   padding: 6rem clamp(1rem, 6vw, 8rem);
   font-family: 'Inter', sans-serif;
   font-weight: 300;
 }
 
 .projects-title {
-    font-weight: 300;
+  font-weight: 300;
   font-size: 2.25rem;
   margin: 0 0 1rem 0;
 }
@@ -19,16 +20,9 @@
 
 .project-item {
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  margin-bottom: 6rem;
   align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.project-text {
-  flex: 1;
-  min-width: 280px;
+  gap: 4rem;
+  margin-bottom: 6rem;
 }
 
 .project-label {
@@ -41,22 +35,3 @@
   line-height: 1.6;
   max-width: 40ch;
 }
-
-.project-image {
-  flex: 1;
-  min-width: 280px;
-}
-
-.image-placeholder {
-  width: 100%;
-  height: 200px; /* or whatever height you prefer */
-  background-color: #ccc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #444;
-  font-size: 1rem;
-  border-radius: 4px;
-}
-
-

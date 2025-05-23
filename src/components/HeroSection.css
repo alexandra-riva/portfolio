@@ -1,7 +1,7 @@
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto;
   padding: 3rem clamp(1rem, 6vw, 6rem);
   gap: 1.5rem;
   font-family: 'Inter', sans-serif;
@@ -10,7 +10,7 @@
   width: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
-  }
+}
 
 /* General typography */
 .hero-grid div {
@@ -21,46 +21,6 @@
 .hero-time {
   grid-column: 1 / 2;
   align-self: start;
-}
-
-/* Intro */
-.hero-intro {
-  grid-column: 2 / 3;
-  line-height: 1.6;
-  max-width: 28ch;
-  align-self: start;
-  margin-left: 4rem; 
-}
-
-/* Development section */
-.hero-dev-title {
-  grid-column: 3 / 4;
-  align-self: start;
-  padding-top: 0.2rem;
-  margin-left: 6rem; 
-}
-
-.hero-dev-skills {
-  grid-column: 4 / 5;
-  white-space: pre-line;
-  align-self: start;
-  padding-top: 0.2rem;
-}
-
-/* Design section */
-.hero-design-title {
-  grid-column: 3 / 4;
-  grid-row: 2;
-  align-self: end;
-  padding-bottom: 4rem;
-  margin-left: 6rem; 
-}
-
-.hero-design-skills {
-  grid-column: 4 / 5;
-  grid-row: 2;
-  align-self: end;
-  padding-bottom: 4rem;
 }
 
 /* Contact */
@@ -82,24 +42,6 @@
 
   .hero-time,
   .hero-contact {
-    display: none; /* hide on mobile to reduce clutter */
-  }
-
-  .hero-intro {
-    max-width: 90%;
-    font-size: 1.05rem;
-  }
-
-  .hero-dev-title,
-  .hero-design-title {
-    margin-top: 1.5rem;
-    font-size: 1.1rem;
-  }
-
-  .hero-dev-skills,
-  .hero-design-skills {
-    white-space: pre-line;
-    font-size: 1rem;
-    line-height: 1.6;
+    display: none; /* Hide on mobile to reduce clutter */
   }
 }
