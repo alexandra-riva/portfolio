@@ -1,49 +1,83 @@
 import React from 'react';
 import './Projects.css';
 
+import weatherapp from '../assets/weatherapp.png';
+import studiowebsite from '../assets/studiowebsite.png';
+import quiz from '../assets/quiz.png';
+import cocktailkungen from '../assets/cocktailkungen.png';
+import rockpaperscissors from '../assets/rockpaperscissors.png';
+import fakestore from '../assets/fakestore.png';
+import medicalapp from '../assets/medicalapp.png';
+
 const projects = [
   {
     id: '01',
-    name: 'Project Name',
+    name: 'Cocktail Kungen',
     description:
-      'Join my YouTube channel where I show my design thinking, my process, and my personality. The channel has helped over 200K designers become more proficient in the tools I use everyday, Figma, Webflow & more. Join the journey!',
-    imageAlt: 'Project image placeholder',
+      'Cocktail Kungen started as a collaborative project but evolved into a full-stack app with my own design, backend, and database. Built with React, Express, and MongoDB, it allows users to browse, add, delete, and favorite cocktails via a RESTful API I developed from scratch. Deployed on Netlify and Render, using a MongoDB Atlas database for persistent storage. Backend may take up to 1 minute to start (free Render hosting).',
+      image: cocktailkungen,
+    imageAlt: 'Cocktail Kungen app preview',
+    github: 'https://github.com/alexandra-riva/api-project',
+    netlify: 'https://cocktail-kungen-app.netlify.app/',
   },
-  // Duplicate for demo – in real case, map through real data
   {
     id: '02',
-    name: 'Another Project',
+    name: 'Quiz Game',
     description:
-      'Description placeholder for another creative project. Talk about your role, tech, or what you learned.',
-    imageAlt: 'Project image placeholder',
+      'Responsive quiz game using JS and the Open Trivia API. Features live questions, score tracking, and interactive UI.',
+    image: quiz,
+    imageAlt: 'Quiz game preview',
+    github: 'https://github.com/alexandra-riva/Quiz_Game_Project',
+    netlify: 'https://gowildquiz.netlify.app/',
   },
   {
     id: '03',
-    name: 'Third Project',
+    name: 'Studio Website',
     description:
-      'More placeholder copy — tell a short story of the project, your contribution, or tech stack.',
-    imageAlt: 'Project image placeholder',
+      'Our first collaborative project at Hyper Island — a fictional agency landing page built with HTML, CSS, and JavaScript. It features engaging animations, a cohesive design, and reflects our early experience in team-based frontend development.',
+    image: studiowebsite,
+    imageAlt: 'Studio website preview',
+    github: 'https://github.com/alexandra-riva/Studio-website',
+    netlify: 'https://studio-website-alexandra-riva.netlify.app/',
   },
   {
     id: '04',
-    name: 'Fourth One',
+    name: 'Weather App',
     description:
-      'This one could show something fun or experimental. Keep tone aligned with your personality.',
-    imageAlt: 'Project image placeholder',
+      'One of my first projects — a minimal weather search tool built with HTML, CSS, and JavaScript. It fetches real-time weather data from the Visual Crossing API through a custom Node.js and Express backend. Deployed on Netlify and Render. Backend may take up to 1 minute to start (free Render hosting).',
+    image: weatherapp,
+    imageAlt: 'Weather app preview',
+    github: 'https://github.com/alexandra-riva/weather-app-alexandra-riva-public',
+    netlify: 'https://weather-app-alexandra-riva.netlify.app/',
   },
   {
     id: '05',
-    name: 'Fifth Work',
+    name: 'Fake Store',
     description:
-      'Use this section to showcase passion projects or school assignments. Make each one distinct.',
-    imageAlt: 'Project image placeholder',
+      'Collaborative e-commerce project using HTML, CSS, and JavaScript. Features dynamic routing, persistent cart, and product filtering powered by the Fake Store API.',
+    image: fakestore,
+    imageAlt: 'Fake Store project preview',
+    github: 'https://github.com/alexandra-riva/fakestore',
+    netlify: 'https://antxhan.github.io/fakestore/',
   },
   {
     id: '06',
-    name: 'Final Example',
+    name: 'Rock, Paper, Scissors',
     description:
-      'Include projects you’re proud of. It doesn’t need to be fancy — just honest and clean.',
-    imageAlt: 'Project image placeholder',
+      'An early project that helped me grasp the fundamentals of JavaScript and DOM manipulation. This simple browser game includes animated buttons, live score tracking, and interactive gameplay using event-driven logic.',
+    image: rockpaperscissors,
+    imageAlt: 'Rock paper scissors game preview',
+    github: 'https://github.com/alexandra-riva/rock-paper-scissors-alexandra-riva',
+    netlify: 'https://alexandra-riva.github.io/rock-paper-scissors-alexandra-riva/',
+  },
+  {
+    id: '07',
+    name: 'Medical App UI',
+    description:
+      'My very first Figma design & prototype. It focuses on clean UI, role-based dashboards, and accessibility for both patients and professionals.',
+    image: medicalapp,
+    imageAlt: 'Medical app UI prototype preview',
+    figma: 'https://www.figma.com/proto/9J2tfqYttXzTaal06UuxUO/Medical-app?node-id=0-1&t=ZSurq2oEGDYAvQeK-1',
   },
 ];
 
@@ -58,9 +92,28 @@ export default function Projects() {
           <div className="project-text">
             <p className="project-label">{project.id} / {project.name}</p>
             <p className="project-description">{project.description}</p>
+
+            <div className="project-links">
+              {project.github && (
+                <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
+                  <span>🔗 View on GitHub</span>
+                </a>
+              )}
+              {project.netlify && (
+                <a href={project.netlify} target="_blank" rel="noopener noreferrer" className="project-link">
+                  <span>🌐 See deployed site</span>
+                </a>
+              )}
+              {project.figma && (
+                <a href={project.figma} target="_blank" rel="noopener noreferrer" className="project-link">
+                  <span>🎨 View on Figma</span>
+                </a>
+              )}
+            </div>
           </div>
+
           <div className="project-image">
-            <div className="image-placeholder">{project.imageAlt}</div>
+            <img src={project.image} alt={project.imageAlt} className="image-placeholder" />
           </div>
         </div>
       ))}

@@ -1,8 +1,23 @@
 import React from 'react';
 import './AboutMe.css';
-import profileImg from '../assets/IMG_1914.jpeg'; 
+import profileImg from '../assets/IMG_1914.jpeg';
 
 export default function AboutMe() {
+  const skills = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Node.js',
+    'MongoDB',
+    'REST API',
+    'Tailwind',
+    'HeroUI',
+    'Netlify',
+    'Figma',
+    'UX/UI',
+  ];
+
   return (
     <section className="about-section">
       <h2 className="about-title">About Me</h2>
@@ -24,10 +39,12 @@ export default function AboutMe() {
 
       <div className="skills-marquee-wrapper">
         <div className="skills-marquee">
-          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
-          <span>Tailwind</span><span>HeroUI</span><span>Figma</span>
-          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
-          <span>Tailwind</span><span>HeroUI</span><span>Figma</span>
+          {skills.map((skill, index) => (
+            <span key={skill}>
+              {skill}
+              {index < skills.length - 1 && <span>&nbsp;&bull;&nbsp;</span>}
+            </span>
+          ))}
         </div>
       </div>
     </section>
