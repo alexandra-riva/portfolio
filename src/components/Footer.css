@@ -1,18 +1,18 @@
 .footer {
   text-align: center;
-  padding: 2rem 2rem 3rem 2rem;  /* ⬆ space above & below the footer */
+  padding: 2rem 2rem 3rem 2rem;
   font-family: 'Inter', sans-serif;
   color: #000;
   font-weight: 300;
   box-sizing: border-box;
   max-width: 1000px;
-  margin: 4rem auto 0 auto; /* ⬆ more space from About Me */
+  margin: 4rem auto 0 auto; 
 }
 
 .footer-text {
   font-size: 1rem;
   color: #444;
-  margin-bottom: 1.2rem; /* ⬆ more gap below this text */
+  margin-bottom: 1.2rem; 
 }
 
 .footer-email {
@@ -31,7 +31,7 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 2rem; /* ⬆ icons move further from the text */
+  margin-top: 2rem;
 }
 
 .footer-icon-link img {

@@ -2,7 +2,7 @@
   padding: 6rem clamp(1rem, 6vw, 8rem);
   width: 100%;
   box-sizing: border-box;
-  margin-top: 28rem;
+  margin-top: 28rem; /* Desktop */
 }
 
 .intro-heading {
@@ -11,4 +11,16 @@
   line-height: 1.3;
   margin: 0;
   max-width: 900px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    padding: 3rem 1.5rem;
+    margin-top: 6rem; 
+  }
+
+  .intro-heading {
+    font-size: 1.8rem;
+  }
 }

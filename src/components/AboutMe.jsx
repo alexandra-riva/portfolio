@@ -5,17 +5,28 @@ import profileImg from '../assets/IMG_1914.jpeg';
 export default function AboutMe() {
   const skills = [
     'HTML',
+    '•',
     'CSS',
+    '•',
     'JavaScript',
+    '•',
     'React',
+    '•',
     'Node.js',
+    '•',
     'MongoDB',
+    '•',
     'REST API',
-    'Tailwind',
+    '•',
+    'Tailwind CSS',
+    '•',
     'HeroUI',
-    'Netlify',
+    '•',
     'Figma',
-    'UX/UI',
+    '•',
+    'UI/UX',
+    '•',
+    'Git & GitHub',
   ];
 
   return (
@@ -26,10 +37,13 @@ export default function AboutMe() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            I’m a front-end developer and design enthusiast with a love for clean code, intuitive interfaces, and creative storytelling through web experiences.
+            After years of working in various roles, I chose to start over and study frontend development.
+            I’ve always been drawn to clean, beautiful interfaces — and now I get to build them.
           </p>
           <p>
-            I’m currently studying at Hyper Island and open to internship opportunities starting September.
+            I’m especially curious about UI/UX, and I’ve started exploring immersive tech like AR and VR.
+            I value minimalism in how I live and what I create. I’m looking for an internship from September
+            to March, ideally in a creative and collaborative team.
           </p>
         </div>
         <div className="about-image">
@@ -40,9 +54,11 @@ export default function AboutMe() {
       <div className="skills-marquee-wrapper">
         <div className="skills-marquee">
           {skills.map((skill, index) => (
-            <span key={skill}>
+            <span
+              key={index}
+              className={skill === '•' ? 'bullet' : 'skill-item'}
+            >
               {skill}
-              {index < skills.length - 1 && <span>&nbsp;&bull;&nbsp;</span>}
             </span>
           ))}
         </div>

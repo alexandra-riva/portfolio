@@ -27,7 +27,6 @@
   opacity: 0.6;
 }
 
-/* Animated blobs with reduced blur */
 .background span:nth-child(1) {
   color: #ffccda;
   top: 1%;

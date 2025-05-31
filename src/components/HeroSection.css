@@ -45,6 +45,6 @@
 
   .hero-time,
   .hero-contact {
-    display: none; /* Hide on mobile to reduce clutter */
+    display: none;
   }
 }
