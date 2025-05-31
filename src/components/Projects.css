@@ -1,14 +1,16 @@
 .projects-section {
-  margin-top: 25rem; /* Desktop */
+  margin-top: 8rem;
   padding: 6rem clamp(1rem, 6vw, 8rem);
   font-family: 'Inter', sans-serif;
   font-weight: 300;
+  background-color: transparent;
 }
 
 .projects-title {
   font-weight: 300;
   font-size: 2.25rem;
   margin: 0 0 1rem 0;
+  text-align: center;
 }
 
 .projects-divider {
@@ -20,10 +22,16 @@
 
 .project-item {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 4rem;
   margin-bottom: 6rem;
-  flex-wrap: wrap;
+}
+
+.project-text {
+  flex: 1;
+  min-width: 280px;
 }
 
 .project-label {
@@ -37,6 +45,22 @@
   max-width: 40ch;
 }
 
+.project-image {
+  flex: 1;
+  min-width: 280px;
+}
+
+.image-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+  font-size: 1rem;
+}
+
 .project-links {
   margin-top: 1rem;
   display: flex;
@@ -48,28 +72,21 @@
   font-size: 0.95rem;
   color: #000;
   text-decoration: none;
-  transition: opacity 0.2s ease;
-}
-
-.project-link:hover {
-  opacity: 0.7;
 }
 
 @media (max-width: 768px) {
   .projects-section {
-    margin-top: 3rem;  /* Slightly less space before Projects */
+    margin-top: 5rem;
     padding: 3rem 1.5rem;
   }
 
   .projects-title {
     font-size: 1.8rem;
-    text-align: center;
   }
 
   .project-item {
-    gap: 2rem;
     flex-direction: column;
-    align-items: flex-start;
+    gap: 2rem;
   }
 
   .project-label {
@@ -80,4 +97,3 @@
     font-size: 0.95rem;
   }
 }
-

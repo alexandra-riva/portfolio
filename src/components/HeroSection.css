@@ -12,25 +12,59 @@
   overflow-x: hidden;
 }
 
-/* General typography */
 .hero-grid div {
   font-weight: 300;
 }
 
-/* Time */
 .hero-time {
   grid-column: 1 / 2;
   align-self: start;
 }
 
-/* Contact */
+.hero-intro {
+  grid-column: 2 / 3;
+  line-height: 1.6;
+  max-width: 28ch;
+  align-self: start;
+  margin-left: 4rem;
+}
+
+.hero-dev-title {
+  grid-column: 3 / 4;
+  align-self: start;
+  margin-left: 6rem;
+  padding-top: 0.2rem;
+}
+
+.hero-dev-skills {
+  grid-column: 4 / 5;
+  white-space: pre-line;
+  align-self: start;
+  padding-top: 0.2rem;
+}
+
+.hero-design-title {
+  grid-column: 3 / 4;
+  grid-row: 2;
+  align-self: end;
+  margin-left: 6rem;
+  padding-bottom: 4rem;
+}
+
+.hero-design-skills {
+  grid-column: 4 / 5;
+  grid-row: 2;
+  align-self: end;
+  padding-bottom: 4rem;
+}
+
 .hero-contact {
   grid-column: 5 / 6;
   align-self: start;
   justify-self: end;
-  text-decoration: none;
+  font-weight: 300;
   color: inherit;
-  font-weight: 300; 
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {

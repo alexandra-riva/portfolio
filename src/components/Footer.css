@@ -1,18 +1,18 @@
 .footer {
   text-align: center;
-  padding: 2rem 2rem 3rem 2rem;
+  padding: 2rem 2rem 2rem 2rem; 
   font-family: 'Inter', sans-serif;
-  color: #000;
   font-weight: 300;
+  color: #000;
   box-sizing: border-box;
   max-width: 1000px;
-  margin: 4rem auto 0 auto; 
+  margin: 2rem auto 2rem auto; 
 }
 
 .footer-text {
   font-size: 1rem;
   color: #444;
-  margin-bottom: 1.2rem; 
+  margin-bottom: 1.2rem;
 }
 
 .footer-email {
@@ -21,10 +21,6 @@
   text-decoration: none;
   display: block;
   margin-bottom: 1rem;
-}
-
-.footer-email:hover {
-  color: #ffb199;
 }
 
 .footer-icons {
@@ -37,10 +33,5 @@
 .footer-icon-link img {
   width: 28px;
   height: 28px;
-  transition: opacity 0.3s ease;
   opacity: 0.8;
-}
-
-.footer-icon-link img:hover {
-  opacity: 1;
 }
