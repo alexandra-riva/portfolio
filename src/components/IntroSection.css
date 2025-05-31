@@ -72,7 +72,7 @@
 
 @media (max-width: 768px) {
   .projects-section {
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
   .project-item {
     flex-direction: column;
