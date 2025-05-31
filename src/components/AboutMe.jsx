@@ -5,27 +5,16 @@ import profileImg from '../assets/IMG_1914.jpeg';
 export default function AboutMe() {
   const skills = [
     'HTML',
-    '•',
     'CSS',
-    '•',
     'JavaScript',
-    '•',
     'React',
-    '•',
     'Node.js',
-    '•',
     'MongoDB',
-    '•',
     'REST API',
-    '•',
     'Tailwind CSS',
-    '•',
     'HeroUI',
-    '•',
     'Figma',
-    '•',
     'UI/UX',
-    '•',
     'Git & GitHub',
   ];
 
@@ -54,10 +43,7 @@ export default function AboutMe() {
       <div className="skills-marquee-wrapper">
         <div className="skills-marquee">
           {skills.map((skill, index) => (
-            <span
-              key={index}
-              className={skill === '•' ? 'bullet' : 'skill-item'}
-            >
+            <span key={index} className="skill-item">
               {skill}
             </span>
           ))}

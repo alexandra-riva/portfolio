@@ -14,7 +14,7 @@ const projects = [
     id: '01',
     name: 'Cocktail Kungen',
     description:
-      'Cocktail Kungen started as a collaborative project but evolved into a full-stack app with my own design, backend, and database. Built with React, Express, and MongoDB, it allows users to browse, add, delete, and favorite cocktails via a RESTful API I developed from scratch. Deployed on Netlify and Render, using a MongoDB Atlas database for persistent storage. Backend may take up to 1 minute to start (free Render hosting).',
+      'Cocktail Kungen started as a collaborative project, but I later re-designed it with my own interface, backend, and database. I also added a custom loading animation for a smoother user experience. The app is built with React, Express, and MongoDB, allowing users to browse, add, delete, and favorite cocktails via a RESTful API I developed from scratch. It’s deployed on Netlify and Render, using MongoDB Atlas for persistent storage. Note: the backend may take up to 1 minute to start due to free Render hosting.',
       image: cocktailkungen,
     imageAlt: 'Cocktail Kungen app preview',
     github: 'https://github.com/alexandra-riva/api-project',
