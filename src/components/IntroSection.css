@@ -15,3 +15,9 @@
   margin: 0;
   max-width: 900px;
 }
+
+@media (max-width: 768px) {
+  .intro-section {
+    margin-top: 12rem;
+  }
+}
