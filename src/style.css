@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
 
-/* GLOBAL RESET */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -17,7 +16,6 @@ body {
   flex-direction: column;
 }
 
-/* Make sure these sections are transparent */
 .hero-grid,
 .intro-section,
 .projects-section,
@@ -25,7 +23,6 @@ body {
   background-color: transparent;
 }
 
-/* === Hero Section === */
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
@@ -114,7 +111,6 @@ body {
   font-size: 1rem;
 }
 
-/* === Footer === */
 .footer {
   text-align: center;
   padding: 4rem clamp(1rem, 6vw, 6rem);

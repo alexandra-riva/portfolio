@@ -57,7 +57,7 @@
 
 @media (max-width: 768px) {
   .projects-section {
-    margin-top: 4rem;
+    margin-top: 3rem;  /* Slightly less space before Projects */
     padding: 3rem 1.5rem;
   }
 
@@ -80,3 +80,4 @@
     font-size: 0.95rem;
   }
 }
+
