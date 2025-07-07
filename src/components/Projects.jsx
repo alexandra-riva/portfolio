@@ -6,7 +6,7 @@ import studiowebsite from '../assets/studiowebsite.png';
 import quiz from '../assets/quiz.png';
 import cocktailkungen from '../assets/cocktailkungen.png';
 import rockpaperscissors from '../assets/rockpaperscissors.png';
-import fakestore from '../assets/fakestore.png';
+import phoenix from '../assets/phoenix.png';
 import medicalapp from '../assets/medicalapp.png';
 
 const projects = [
@@ -15,7 +15,7 @@ const projects = [
     name: 'Cocktail Kungen',
     description:
       'Cocktail Kungen started as a collaborative project, but I later re-designed it with my own interface, backend, and database. I also added a custom loading animation for a smoother user experience. The app is built with React, Express, and MongoDB, allowing users to browse, add, delete, and favorite cocktails via a RESTful API I developed from scratch. It’s deployed on Netlify and Render, using MongoDB Atlas for persistent storage. Note: the backend may take up to 1 minute to start due to free Render hosting.',
-      image: cocktailkungen,
+    image: cocktailkungen,
     imageAlt: 'Cocktail Kungen app preview',
     github: 'https://github.com/alexandra-riva/api-project',
     netlify: 'https://cocktail-kungen-app.netlify.app/',
@@ -52,13 +52,13 @@ const projects = [
   },
   {
     id: '05',
-    name: 'Fake Store',
+    name: 'VR Dream Space',
     description:
-      'Collaborative e-commerce project using HTML, CSS, and JavaScript. Features dynamic routing, persistent cart, and product filtering powered by the Fake Store API.',
-    image: fakestore,
-    imageAlt: 'Fake Store project preview',
-    github: 'https://github.com/alexandra-riva/fakestore',
-    netlify: 'https://antxhan.github.io/fakestore/',
+      'My first VR project, created as part of a future-themed assignment about where we see ourselves in the years to come. This scene is inspired by a real dream of mine — living in the Dominican Republic. Set on a beach-jungle platform with an eco-style cabin, the project was built using A-Frame and Blender. It features animated elements like a flying phoenix and an orbiting butterfly, as well as interactive models that trigger sounds when approached or clicked. I modeled and textured the environment in Blender, and added logic and audio in A-Frame. Deployed on Netlify for in-browser VR exploration.',
+    image: phoenix,
+    imageAlt: 'VR Dream Space preview',
+    github: 'https://github.com/alexandra-riva/vr-space',
+    netlify: 'https://vrspacealex.netlify.app/',
   },
   {
     id: '06',
