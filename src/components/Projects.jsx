@@ -60,16 +60,18 @@ const projects = [
     github: 'https://github.com/alexandra-riva/vr-space',
     netlify: 'https://vrspacealex.netlify.app/',
   },
-  {
-    id: '06',
-    name: 'Rock, Paper, Scissors',
-    description:
-      'An early project that helped me grasp the fundamentals of JavaScript and DOM manipulation. This simple browser game includes animated buttons, live score tracking, and interactive gameplay using event-driven logic.',
-    image: rockpaperscissors,
-    imageAlt: 'Rock paper scissors game preview',
-    github: 'https://github.com/alexandra-riva/rock-paper-scissors-alexandra-riva',
-    netlify: 'https://alexandra-riva.github.io/rock-paper-scissors-alexandra-riva/',
-  },
+/*
+{
+  id: '06',
+  name: 'Rock, Paper, Scissors',
+  description:
+    'An early project that helped me grasp the fundamentals of JavaScript and DOM manipulation. This simple browser game includes animated buttons, live score tracking, and interactive gameplay using event-driven logic.',
+  image: rockpaperscissors,
+  imageAlt: 'Rock paper scissors game preview',
+  github: 'https://github.com/alexandra-riva/rock-paper-scissors-alexandra-riva',
+  netlify: 'https://alexandra-riva.github.io/rock-paper-scissors-alexandra-riva/',
+},
+*/
   {
     id: '07',
     name: 'Medical App UI',
