@@ -34,8 +34,8 @@ export default function AboutMe() {
             I’ve always been drawn to clean, beautiful interfaces — and now I get to build them.
           </p>
           <p>
-            I’m especially curious about UI/UX, and I’ve started exploring immersive tech like AR and VR. My latest project involved creating a 3D interactive dream space using A-Frame and Blender.
-            I value minimalism in how I live and what I create. I’m looking for an internship from September
+            I’m especially curious about UI/UX, and I’ve started exploring immersive tech like AR and VR. My latest project involved creating a 3D interactive dream space using A-Frame and Blender. </p>
+           <p>I value minimalism in how I live and what I create. I’m looking for an internship from September
             to March, ideally in a creative and collaborative team.
           </p>
         </div>
