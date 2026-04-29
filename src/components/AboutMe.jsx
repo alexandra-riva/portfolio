@@ -6,20 +6,18 @@ export default function AboutMe() {
   const skills = [
   'HTML',
   'CSS',
+  'Tailwind CSS',
   'JavaScript',
   'React',
-  'Node.js',
+  'React Native',
   'MongoDB',
   'REST API',
   'Tailwind CSS',
-  'HeroUI',
   'Figma',
   'UI/UX',
   'Git & GitHub',
-  'Vite',
   'A-Frame',
   'Blender',
-  'WebXR',
   ];
 
   return (
@@ -30,13 +28,11 @@ export default function AboutMe() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            After years of working in various roles, I chose to start over and study frontend development.
-            I’ve always been drawn to clean, beautiful interfaces — and now I get to build them.
+            After several years of working in different roles, I chose to transition into frontend development and user experience, as I found myself more interested in building and improving digital products.
           </p>
           <p>
-            I’m especially curious about UI/UX, and I’ve started exploring immersive tech like AR and VR. My latest project involved creating a 3D interactive dream space using A-Frame and Blender. </p>
-           <p>I value minimalism in how I live and what I create. I’m looking for an internship from September
-            to March, ideally in a creative and collaborative team.
+            I’m especially interested in UI/UX and enjoy exploring how design and technology shape user experiences. I’ve also explored immersive technologies like AR and VR, including a 3D interactive project built with A-Frame and Blender.</p>
+           <p>I like keeping things simple and focusing on details that make a product feel clear and easy to use.
           </p>
         </div>
         <div className="about-image">

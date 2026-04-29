@@ -20,6 +20,7 @@ const projects = [
     github: 'https://github.com/alexandra-riva/api-project',
     netlify: 'https://cocktail-kungen-app.netlify.app/',
   },
+   /*
   {
     id: '02',
     name: 'Quiz Game',
@@ -30,6 +31,7 @@ const projects = [
     github: 'https://github.com/alexandra-riva/Quiz_Game_Project',
     netlify: 'https://gowildquiz.netlify.app/',
   },
+  */
   {
     id: '03',
     name: 'Studio Website',
@@ -40,6 +42,7 @@ const projects = [
     github: 'https://github.com/alexandra-riva/Studio-website',
     netlify: 'https://studio-website-alexandra-riva.netlify.app/',
   },
+    /*
   {
     id: '04',
     name: 'Weather App',
@@ -50,6 +53,7 @@ const projects = [
     github: 'https://github.com/alexandra-riva/weather-app-alexandra-riva-public',
     netlify: 'https://weather-app-alexandra-riva.netlify.app/',
   },
+    */
   {
     id: '05',
     name: 'VR Dream Space',

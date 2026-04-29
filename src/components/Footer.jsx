@@ -6,7 +6,7 @@ import linkedinIcon from '../assets/linkedin.svg';
 export default function Footer() {
   return (
     <footer className="footer">
-      <p className="footer-subline">Curious to connect? So am I.</p>
+      <p className="footer-subline">Curious to connect? </p>
       <p className="footer-text">Feel free to reach out via email or find me here:</p>
 
       <a className="footer-email" href="mailto:alexandra.riva@hyperisland.se">
