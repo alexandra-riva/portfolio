@@ -6,8 +6,8 @@ export default function IntroSection() {
     <section className="intro-section">
       <h1 className="intro-heading">
         Alexandra Riva<br />
-        Front-end developer<br />
-        student at Hyper Island.
+        Frontend developer<br />
+        with a focus on UI/UX.
       </h1>
     </section>
   );
