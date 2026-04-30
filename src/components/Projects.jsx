@@ -6,6 +6,7 @@ import cocktailkungen from '../assets/cocktailkungen.png';
 import phoenix from '../assets/phoenix.png';
 import medicalapp from '../assets/medicalapp.png';
 import weatherVideo from '../assets/weather-demo.mp4';
+import carl from '../assets/carl.png';
 
 const projects = [
   {
@@ -26,8 +27,20 @@ const projects = [
     video: weatherVideo,
     github: 'https://github.com/alexandra-riva/weather-native-zustand',
   },
+
+    {
+  id: '03',
+  name: 'Creative Website',
+  description:
+    'A custom-designed and developed website created in collaboration with a creative professional. The design was tailored to reflect their visual vision, with a strong focus on typography, layout, and composition. Built using modular HTML, CSS, and JavaScript with reusable sections and dynamic content loading. Includes interactive elements such as flip cards, a category-based gallery, and language switching. Fully responsive and deployed on its own domain.',
+  image: carl,
+  imageAlt: 'Carl Larsson website preview',
+  github: 'https://github.com/alexandra-riva/carl-website',
+  netlify: 'https://carllarzzon.eu/',
+},
+
   {
-    id: '03',
+    id: '04',
     name: 'Studio Website',
     description:
       'A fictional agency landing page built with HTML, CSS, and JavaScript. Features animations, cohesive design, and reflects early team-based frontend work.',
@@ -36,6 +49,7 @@ const projects = [
     github: 'https://github.com/alexandra-riva/Studio-website',
     netlify: 'https://studio-website-alexandra-riva.netlify.app/',
   },
+
   {
     id: '05',
     name: 'VR Dream Space',
@@ -47,7 +61,7 @@ const projects = [
     netlify: 'https://vrspacealex.netlify.app/',
   },
   {
-    id: '07',
+    id: '06',
     name: 'Medical App UI',
     description:
       'My first Figma prototype focusing on clean UI, accessibility, and role-based dashboards.',
